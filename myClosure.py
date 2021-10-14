@@ -40,3 +40,5 @@ def f1():
 
 
 f1()
+
+isinstance('4', int)

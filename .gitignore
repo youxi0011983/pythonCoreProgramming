@@ -131,3 +131,4 @@ dmypy.json
 # Cutsom
 *.txt
 .idea/
+.exe
