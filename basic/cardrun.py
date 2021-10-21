@@ -12,9 +12,9 @@ def safe_float(obj):
 
 def main():
     # 'handles all the data processing'
-    log = open('cardlog.txt', 'w')
+    log = open('../cardlog.txt', 'w')
     try:
-        ccfile = open('carddata.txt', 'r')
+        ccfile = open('../carddata.txt', 'r')
     except IOError as e:
         log.write('no txns this month\n')
         log.close()

@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding:UTF-8 -*-
-PATH = './'
+PATH = '../'
 
 if __name__ == '__main__':
     filename = input('Enter file name: ')
